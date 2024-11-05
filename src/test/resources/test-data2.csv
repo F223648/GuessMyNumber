@@ -1,0 +1,10 @@
+userAnswer,computerNumber,tryNumber,expectedResult
+50,50,1,"Correct!\nTotal Guesses: 1"
+75,50,2,"Your guess is too high, try again.\nTry Number: 2"
+25,50,2,"Your guess is too low, try again.\nTry Number: 2"
+0,50,1,"Your guess is invalid"
+101,50,1,"Your guess is invalid"
+10,50,1,"Your guess is too low, try again.\nTry Number: 1"
+90,50,1,"Your guess is too high, try again.\nTry Number: 1"
+1,50,1,"Your guess is too low, try again.\nTry Number: 1"
+100,50,1,"Your guess is too high, try again.\nTry Number: 1"

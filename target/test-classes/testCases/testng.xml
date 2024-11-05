@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="GuessingGameTestSuite">
+    <test name="ValidGuessTests">
+        <groups>
+            <run>
+                <include name="validGuess"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="testCases.GuessingGameTest"/>
+        </classes>
+    </test>
+
+    <test name="InvalidGuessTests">
+        <groups>
+            <run>
+                <include name="invalidGuess"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="testCases.GuessingGameTest"/>
+        </classes>
+    </test>
+</suite>

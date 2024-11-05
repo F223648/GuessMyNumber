@@ -1,0 +1,7 @@
+userAnswer,secretNumber,count,expectedMessage
+42,42,3,"Correct!\nTotal Guesses: 3"
+75,42,5,"Your guess is too high, try again.\nYou've used 5 guesses."
+15,42,2,"Your guess is too low, try again.\nYou've used 2 guesses."
+0,42,1,"Your guess is invalid"
+101,42,1,"Your guess is invalid"
+24,42,7,"Your guess is too low, try again.\nYou've used 7 guesses."
